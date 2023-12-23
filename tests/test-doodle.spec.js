@@ -25,7 +25,7 @@ customtest('Should Display Sections', async ({ page, Sections }) => {
   await expect(texts).toEqual(Sections)
 });
 
-
+//Note: This test is failing because of the captcha issues
 test('Fetching the program values and Executing the program', async ({ page }) => {
   let Inputs;
   await test.step('Fetching the program values', async () => {
