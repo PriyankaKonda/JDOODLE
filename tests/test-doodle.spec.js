@@ -25,7 +25,7 @@ customtest('Should Display Sections', async ({ page, Sections }) => {
   await expect(texts).toEqual(Sections)
 });
 
-//Note: This test is failing because of the captcha issues
+//Note: This test is sometimes failing because of the captcha issues
 test('Fetching the program values and Executing the program', async ({ page }) => {
   let Inputs;
   await test.step('Fetching the program values', async () => {
@@ -36,6 +36,7 @@ test('Fetching the program values and Executing the program', async ({ page }) =
     await expect(javaCompilerPage.txtOnlineJavaComipler).toBeVisible();
     await page.waitForTimeout(5000);
     Inputs = await javaCompilerPage.numbers.allInnerTexts();
+    console.log(Inputs)
   }, { box: true })
   await test.step('Executing the Program', async () => {
     const pageObjectManager = new PageObjectManager(page)

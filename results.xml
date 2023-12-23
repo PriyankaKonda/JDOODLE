@@ -1,9 +1,65 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="29.707462">
-<testsuite name="test-doodle.spec.js" timestamp="2023-12-23T12:10:23.074Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.259" errors="0">
-<testcase name="Should display JDoodle Logo, Products, Solutions, Resources, Pricing" classname="test-doodle.spec.js" time="14.259">
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="70.23119499999999">
+<testsuite name="test-doodle.spec.js" timestamp="2023-12-23T15:52:27.670Z" hostname="chromium" tests="5" failures="0" skipped="0" time="103.225" errors="0">
+<testcase name="Should display JDoodle Logo, Products, Solutions, Resources, Pricing" classname="test-doodle.spec.js" time="20.754">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\test-doodle-Should-display-JDoodle-Logo-Products-Solutions-Resources-Pricing-chromium\trace.zip]]
+[[ATTACHMENT|test-results\test-doodle-Should-display-JDoodle-Logo-Products-Solutions-Resources-Pricing-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Should Display Sections" classname="test-doodle.spec.js" time="13.346">
+<system-out>
+<![CDATA[[
+  [32m's'[39m,
+  [32m'New Project'[39m,
+  [32m'My Projects'[39m,
+  [32m'Execute History'[39m,
+  [32m'Collaborate'[39m,
+  [32m'Save'[39m,
+  [32m'Save As'[39m,
+  [32m'Editable Share'[39m,
+  [32m'Instant Share (No Login/Save required)'[39m,
+  [32m'Copy to Clipboard'[39m,
+  [32m'Open (from local file)'[39m,
+  [32m'Save (to local file)'[39m,
+  [32m'Pretty Print'[39m
+]
+
+[[ATTACHMENT|test-results\test-doodle-Should-Display-Sections-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Fetching the program values and Executing the program" classname="test-doodle.spec.js" time="36.456">
+<system-out>
+<![CDATA[[33m35[39m
+
+[[ATTACHMENT|test-results\test-doodle-Fetching-the-program-values-and-Executing-the-program-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Links Provided under the Products List" classname="test-doodle.spec.js" time="18.274">
+<system-out>
+<![CDATA[Title>> 
+URL>> about:blank
+Title>> 
+URL>> about:blank
+Title>> 
+URL>> about:blank
+
+[[ATTACHMENT|test-results\test-doodle-Links-Provided-under-the-Products-List-chromium\test-finished-4.png]]
+
+[[ATTACHMENT|test-results\test-doodle-Links-Provided-under-the-Products-List-chromium\test-finished-2.png]]
+
+[[ATTACHMENT|test-results\test-doodle-Links-Provided-under-the-Products-List-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\test-doodle-Links-Provided-under-the-Products-List-chromium\test-finished-3.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Should display sharing of tool" classname="test-doodle.spec.js" time="14.395">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\test-doodle-Should-display-sharing-of-tool-chromium\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
