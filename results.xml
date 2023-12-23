@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="29.707462">
+<testsuite name="test-doodle.spec.js" timestamp="2023-12-23T12:10:23.074Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.259" errors="0">
+<testcase name="Should display JDoodle Logo, Products, Solutions, Resources, Pricing" classname="test-doodle.spec.js" time="14.259">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\test-doodle-Should-display-JDoodle-Logo-Products-Solutions-Resources-Pricing-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
