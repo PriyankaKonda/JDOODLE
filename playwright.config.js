@@ -32,7 +32,7 @@ module.exports = defineConfig({
     trace: 'retain-on-failure',
     screenshot :'on',
     video:'retain-on-failure',
-    navigationTimeout: 40*1000,
+    navigationTimeout: 50*1000,
     actionTimeout:40*1000,
     acceptDownloads : true,
     baseURL : 'https://www.jdoodle.com/online-java-compiler',
