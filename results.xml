@@ -1,95 +1,24 @@
-<testsuites id="" name="" tests="5" failures="1" skipped="0" errors="0" time="108.751436">
-<testsuite name="test-doodle2.spec.js" timestamp="2024-01-12T10:35:20.229Z" hostname="chromium" tests="5" failures="1" skipped="0" time="18.795" errors="0">
-<testcase name="Should display JDoodle Logo, Products, Solutions, Resources, Pricing" classname="test-doodle2.spec.js" time="4.547">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\test-doodle2-Should-display-JDoodle-Logo-Products-Solutions-Resources-Pricing-chromium\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\test-doodle2-Should-display-JDoodle-Logo-Products-Solutions-Resources-Pricing-chromium\test-finished-2.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Should Display Sections" classname="test-doodle2.spec.js" time="1.525">
-<system-out>
-<![CDATA[[
-  [32m's'[39m,
-  [32m'New Project'[39m,
-  [32m'My Projects'[39m,
-  [32m'Execute History'[39m,
-  [32m'Collaborate'[39m,
-  [32m'Save'[39m,
-  [32m'Save As'[39m,
-  [32m'Editable Share'[39m,
-  [32m'Instant Share (No Login/Save required)'[39m,
-  [32m'Copy to Clipboard'[39m,
-  [32m'Open (from local file)'[39m,
-  [32m'Save (to local file)'[39m,
-  [32m'Pretty Print'[39m
-]
-
-[[ATTACHMENT|test-results\test-doodle2-Should-Display-Sections-chromium\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\test-doodle2-Should-Display-Sections-chromium\test-finished-2.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Fetching the program values and Executing the program" classname="test-doodle2.spec.js" time="0.021">
-<failure message="test-doodle2.spec.js:41:5 Fetching the program values and Executing the program" type="FAILURE">
-<![CDATA[  [chromium] › test-doodle2.spec.js:41:5 › Fetching the program values and Executing the program ───
-
-    Error: page.goto: Timeout 40000ms exceeded.
-    Call log:
-      - navigating to "https://www.jdoodle.com/", waiting until "load"
-
-
-      11 |   context = await browser.newContext();
-      12 |   page = await context.newPage();
-    > 13 |   await page.goto('/');
-         |              ^
-      14 |   await page.goto(url);
-      15 |   await page.waitForLoadState('load');
-      16 |
-
-        at C:\JDOODLE\tests\test-doodle2.spec.js:13:14
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results\test-doodle2-Fetching-the-program-values-and-Executing-the-program-chromium\test-finished-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\test-doodle2-Fetching-the-program-values-and-Executing-the-program-chromium\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Links Provided under the Products List" classname="test-doodle2.spec.js" time="11.027">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="32.058977999999996">
+<testsuite name="test-doodle2.spec.js" timestamp="2024-01-18T16:01:28.276Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.767" errors="0">
+<testcase name="Links Provided under the Products List" classname="test-doodle2.spec.js" time="7.767">
 <system-out>
 <![CDATA[Title>> Online Compiler and Editor/IDE for Java, C, C++, PHP, Python, Ruby, Perl - Code and Run Online
 URL>> https://www.jdoodle.com/code-online-compiler-ide
-Title>> 
-URL>> about:blank
-Title>> 
-URL>> about:blank
+Title>> Online Compiler and Editor/IDE for Java, C, C++, PHP, Python, Ruby, Perl - Code and Run Online
+URL>> https://www.jdoodle.com/intergrate-online-ide-compiler-api-plugins
+Title>> Online Compiler and Editor/IDE for Java, C, C++, PHP, Python, Ruby, Perl - Code and Run Online
+URL>> https://www.jdoodle.com/online-assessment-teaching
+[33m4[39m
 
 [[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-4.png]]
-
 [[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-5.png]]
+
+[[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-2.png]]
 
 [[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-3.png]]
 
-[[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-2.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Should display sharing of tool" classname="test-doodle2.spec.js" time="1.675">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\test-doodle2-Should-display-sharing-of-tool-chromium\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\test-doodle2-Should-display-sharing-of-tool-chromium\test-finished-2.png]]
+[[ATTACHMENT|test-results\test-doodle2-Links-Provided-under-the-Products-List-chromium\test-finished-4.png]]
 ]]>
 </system-out>
 </testcase>

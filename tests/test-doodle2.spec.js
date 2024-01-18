@@ -73,6 +73,7 @@ test('Links Provided under the Products List', async () => {
   await javaCompilerPage.products.last().click();
   await expect(javaCompilerPage.productFooterDiv).toBeVisible();
   const countOfLinksInProductDiv = await javaCompilerPage.linksUnderProductDiv.count();
+  const arrayOfUrls = []
 
   for (let i = 0; i < countOfLinksInProductDiv; i++) {
     await page.bringToFront();
@@ -83,11 +84,23 @@ test('Links Provided under the Products List', async () => {
       ]);
       await newPage.waitForLoadState();
       console.log('Title>>', await newPage.title());
-      console.log('URL>>', newPage.url());
+      console.log('URL>>', await newPage.url());
+      //await arrayOfUrls.push(newPage.url())
+      // const response =await page.request.get(await newPage.url())
+      // await expect(response).not.toBeOK()
     } catch {
       continue;
     }
   }
+  const noOfpages = await context.pages();
+  console.log(noOfpages.length)
+
+  for (let i = 0; i < noOfpages.length; i++) {
+    const response = await page.request.get(await noOfpages[i].url())
+    await expect(response).toBeOK()
+  }
+
+
 
 });
 
